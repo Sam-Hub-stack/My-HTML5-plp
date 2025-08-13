@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5</title>
+</head>
+<body>
+  <header>
+    <h1>HTML5 Demo</h1>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About this page</h2>
+      <p>Simple HTML5 structure using  semantic elements.</p>
+      <ul>
+        <li><code>header</code></li>
+        <li><code>nav</code></li>
+        <li><code>main</code></li>
+        <li><code>section</code></li>
+        <li><code>footer</code></li>
+      </ul>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name</label><br>
+          <input id="name" name="name" type="text" required>
+        </p>
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Sam-Hub </small>
+  </footer>
+</body>
+</html>
